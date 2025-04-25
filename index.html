@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elyhera</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+	    <!--<div class="menu-icon" id="menu-icon">Menu</div>-->
+            <nav class="navbar" id="navbar">
+                <a href="#">Accueil</a>
+                <a href="#events">Événements</a>
+                <a href="mailto:contact@elythera.com">Contact</a>
+                <a href="https://discord.gg/Vg7egG3RZC" class="btn-discord">Rejoindre le Discord</a>
+            </nav>
+            <h1>Elyhera</h1>
+            <p>Actuellement en accès anticipé</p>
+        </div>
+    </div>
+    <div class="content container mx-auto">
+        <h2>Découvrez Elyhera</h2>
+        <p>Elyhera est une communauté dédiée aux passionnés de jeux vidéos. Rejoignez-nous pour participer à des événements exclusifs, rencontrer d'autres joueurs et bien plus encore !</p>
+
+        <section class="events" id="events">
+            <div class="event-card">
+                <img src="./assets/img/default-card.jpg" alt="Event 1">
+                <div class="event-details">
+                    <h3>Bientôt</h3>
+                    <p>Un futur événement sera organisé, restez à l'écoute !</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="./assets/img/fk-card.jpg" alt="Event 2">
+                <div class="event-details">
+                    <h3>Fallen Kingdom</h3>
+                    <p>Event fun avec la communauté. S'est déroulé le 20 avril 2025.</p>
+                </div>
+            </div>
+            <div class="event-card">
+                <img src="./assets/img/prominence-card.webp" alt="Event 3">
+                <div class="event-details">
+                    <h3>Prominence II RPG</h3>
+                    <p>Modpack survivaliste avec la communauté.</p>
+                </div>
+            </div>
+        </section>
+
+	<!--
+        <section class="ranking" id="ranking">
+            <h2>Dernier Classement des Membres</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Rang</th>
+                        <th>Nom</th>
+                        <th>Niveau</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Membre1</td>
+                        <td>Niveau 10</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Membre2</td>
+                        <td>Niveau 9</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Membre3</td>
+                        <td>Niveau 8</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+	-->
+    </div>
+    <footer class="footer">
+        <div class="container mx-auto">
+            <p>&copy; 2024-2025 Elyhera. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navbar = document.getElementById('navbar');
+
+        menuIcon.addEventListener('click', () => {
+            navbar.classList.toggle('open');
+            navbar.classList.toggle('closed');
+        });
+    </script>
+</body>
+</html>
