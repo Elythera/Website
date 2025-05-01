@@ -52,7 +52,6 @@
             </div>
         </section>
 
-	<!--
         <section class="ranking" id="ranking">
             <h2>Dernier Classement des Membres</h2>
             <table>
@@ -63,26 +62,9 @@
                         <th>Niveau</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <td>1</td>
-                        <td>Membre1</td>
-                        <td>Niveau 10</td>
-                    </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>Membre2</td>
-                        <td>Niveau 9</td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>Membre3</td>
-                        <td>Niveau 8</td>
-                    </tr>
-                </tbody>
+                <tbody id="ranking-body"></tbody>
             </table>
         </section>
-	-->
     </div>
     <footer class="footer">
         <div class="container mx-auto">
@@ -97,6 +79,28 @@
         menuIcon.addEventListener('click', () => {
             navbar.classList.toggle('open');
         });
+		
+		fetch($DISCORD_LEADERBOARD)
+			.then(response => response.json())
+			.then(data => {
+				const tbody = document.getElementById('ranking-body');
+				tbody.innerHTML = '';
+				data
+					.sort((a, b) => b.level - a.level || b.xp - a.xp)
+					.forEach((user, index) => {
+					const row = document.createElement('tr');
+					row.innerHTML = `
+						<td>${index + 1}</td>
+						<td>${user.user_id}</td>
+						<td>Niveau ${user.level}</td>
+					`;
+					tbody.appendChild(row);
+				});
+			})
+			.catch(error => {
+				document.getElementById('ranking-body').innerHTML = `<tr><td colspan="3">Erreur lors du chargement des données</td></tr>`;
+				console.error('Erreur API:', error);
+			});
     </script>
 </body>
 </html>
