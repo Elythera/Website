@@ -80,7 +80,7 @@
             navbar.classList.toggle('open');
         });
 		
-		fetch('http://node.elythera.com:25579/leaderboard')
+		fetch('https://dsc-bot.elythera.com/leaderboard')
 			.then(response => response.json())
 			.then(data => {
 				const tbody = document.getElementById('ranking-body');
