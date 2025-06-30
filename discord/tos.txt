@@ -1,0 +1,31 @@
+1. Acceptation des conditions
+En utilisant le bot Elythera (ci-après "le Bot"), vous acceptez les présentes Conditions d'utilisation. Si vous n'êtes pas d'accord avec ces conditions, veuillez ne pas utiliser le Bot.
+
+2. Usage prévu
+Le Bot est mis à disposition à des fins communautaires uniquement. Il est conçu pour améliorer l'expérience des membres sur les serveurs Discord où il est ajouté. Il ne doit pas être utilisé à des fins commerciales, illégales ou abusives.
+
+3. Collecte et utilisation des données
+Le Bot peut collecter certaines données nécessaires à son fonctionnement (ex. : identifiants Discord des utilisateurs, messages, niveaux d’activité, etc.).
+Ces données :
+
+ne sont utilisées que pour le bon fonctionnement du Bot,
+
+ne sont partagées avec aucun tiers,
+
+peuvent être supprimées sur demande via contact avec l’administrateur du Bot.
+
+4. Limitations et responsabilités
+Le Bot est fourni "tel quel", sans garantie de fonctionnement continu, sans bugs ou interruptions.
+
+Les administrateurs du Bot ne pourront être tenus responsables des pertes ou dommages liés à son usage.
+
+Le Bot peut être mis à jour, modifié ou désactivé à tout moment sans préavis.
+
+5. Respect des règles Discord
+L'utilisation du Bot doit se faire dans le respect des Conditions d'utilisation de Discord et des Règles de la communauté Discord.
+
+6. Modifications des conditions
+Ces Conditions peuvent être modifiées à tout moment. Toute modification prendra effet dès sa publication. Il est recommandé de consulter cette page régulièrement.
+
+7. Contact
+Pour toute question ou demande concernant ces Conditions d'utilisation ou les données enregistrées, merci de contacter : contact@elythera.com
