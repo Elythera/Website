@@ -1,0 +1,57 @@
+Politique de confidentialité du bot Discord Elythera
+Dernière mise à jour : 30 juin 2025
+
+1. Données collectées
+Le bot Elythera collecte uniquement les données nécessaires à son bon fonctionnement, notamment :
+
+Identifiant utilisateur Discord (userID)
+
+Identifiant de serveur (guildID)
+
+Messages spécifiques (comme les commandes ou événements de bump)
+
+Statistiques d'activité (ex : niveaux, XP, participation)
+
+Aucune donnée sensible ou non pertinente n’est collectée.
+
+2. Utilisation des données
+Les données collectées sont utilisées uniquement pour :
+
+Fournir les fonctionnalités du bot (système de niveaux, rappels, classements, etc.)
+
+Personnaliser l’expérience utilisateur sur les serveurs
+
+Ces données ne sont jamais vendues, louées ou partagées avec des tiers.
+
+3. Stockage et sécurité
+Les données sont stockées de manière sécurisée sur un serveur contrôlé par les administrateurs du bot.
+Des mesures techniques sont mises en place pour prévenir tout accès non autorisé.
+
+4. Durée de conservation
+Les données sont conservées aussi longtemps qu'elles sont nécessaires au fonctionnement du bot. Elles peuvent être supprimées :
+
+Manuellement par un administrateur du serveur
+
+Sur demande explicite d’un utilisateur
+
+5. Vos droits
+Conformément aux bonnes pratiques en matière de confidentialité, vous pouvez à tout moment :
+
+Demander quelles données vous concernant sont enregistrées
+
+Demander la suppression de vos données
+
+Demander la correction d’informations erronées
+
+Pour exercer ces droits, contactez-nous via : [Ton pseudo Discord ou adresse email]
+
+6. Services tiers
+Le bot n'utilise pas de services d’analyse ou de services tiers susceptibles de collecter des données supplémentaires.
+
+7. Modifications
+Cette politique de confidentialité peut être mise à jour à tout moment. La date de la dernière révision figure en haut du document.
+
+8. Contact
+Pour toute question ou demande relative à la vie privée :
+contact@elythera.com
+
